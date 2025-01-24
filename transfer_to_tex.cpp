@@ -61,7 +61,7 @@ void Print_derivative_to_tex(struct Node_t* node, FILE* file_tex)
             else if (node->elem.operation == _LOG)    {PRINT_UNARY_OP(_LOG, LOG);} 
             else if (node->elem.operation == _LN)     {PRINT_UNARY_OP(_LN, LN);}
         }
-    }
+    }//
         if (node->type == NUMBER) 
         {
             fprintf(file_tex, "%0.2lf ", node->elem.number);

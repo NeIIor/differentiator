@@ -1,6 +1,6 @@
 #ifndef ENUM_OPERATION_H
 #define ENUM_OPERATION_H
-
+//
 enum operation
 {
     _NOTHING  = 0,

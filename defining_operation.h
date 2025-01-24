@@ -7,4 +7,4 @@
 enum operation Defining_operation_for_Node (char* data);
 const char* Defining_operations_for_dump   (int operation);
 
-#endif // DEFINING_OPERATION
+#endif // DEFINING_OPERATION//

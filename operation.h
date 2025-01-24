@@ -1,6 +1,6 @@
 #ifndef OPERATION_H
 #define OPERATION_H
-
+//
 static const char* ADD     = "+";
 static const char* SUB     = "-";
 static const char* MUL     = "*";

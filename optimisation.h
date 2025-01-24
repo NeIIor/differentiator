@@ -1,6 +1,6 @@
 #ifndef OPTIMISATION_H
 #define OPTIMISATION_H
-
+//
 #include "derevtso.h"
 #include "operation.h"
 #include "enum_operation.h"

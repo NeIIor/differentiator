@@ -38,4 +38,4 @@ int Quentity_letters_in_word     (char* arr);
 void Deductr                     (struct Node_t* Node);
 enum type_Node Type_definition   (char* data);
 
-#endif // DEREVTSO_H
+#endif // DEREVTSO_H//

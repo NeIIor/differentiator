@@ -142,4 +142,4 @@ enum type_Node Type_definition (char* data)
     if (strcmp (data, NOTH) == 0)               {return EMPTINESS;} 
     for (const char* p = data; *p != '\0'; p++) {if (!isdigit(*p)) {return OPERATION;}} 
     return NUMBER;
-}
+}//

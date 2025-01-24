@@ -1,6 +1,6 @@
 #ifndef DUMPIK_H
 #define DUMPIK_H
-
+//
 #include <stdlib.h>
 #include <stdio.h>
 

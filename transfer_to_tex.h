@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
-
+//
 const char write_tex[] = "\\documentclass{article}\n"
                         "\\usepackage{graphicx}\n"
                         "\\usepackage[T1]{fontenc}\n"

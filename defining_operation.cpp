@@ -55,4 +55,4 @@ const char* Defining_operations_for_dump (int operation)
     if (operation == _LOG)      {return LOG;}
     if (operation == _LN)       {return LN;}
     if (operation == _NOTHING)  {return NOTHING;}
-}
+}//
