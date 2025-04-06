@@ -31,7 +31,7 @@ struct Node_t
     type_Node type;
 };
 
-struct Node_t* Сonverter_tree    (char** arr, Node_t* otets);
+struct Node_t* Converter_tree    (char** arr, Node_t* otets);
 void Read_word                   (char** arr, char* word);
 Node_t* create_Node              (char* data, Node_t* Node);
 int Quentity_letters_in_word     (char* arr);

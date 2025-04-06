@@ -1,10 +1,10 @@
 #ifndef OPTIMISATION_H
 #define OPTIMISATION_H
 //
-#include "derevtso.h"
-#include "operation.h"
-#include "enum_operation.h"
-#include "differentiator.h"
+#include "tree.h"
+#include "oper.h"
+#include "enum_oper.h"
+#include "diff.h"
 
 void First_optimisation                           (Node_t* Node);
 void Second_optimisation                          (Node_t** node);

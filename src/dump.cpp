@@ -1,16 +1,14 @@
-#include "dump.h"
-//
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <time.h>
 #include <string.h>
 #include <assert.h>
-
 #include <sys/time.h>
 
-#include "derevtso.h"
-#include "defining_operation.h"
+#include "../h/dump.h"
+#include "../h/tree.h"
+#include "../h/def_oper.h"
 
 void Dump_moment (struct Node_t* Node)
 {

@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <assert.h>
 //
-#include "derevtso.h"
-#include "fillbuf.h"
-#include "dump.h"
-#include "optimisation.h"
-#include "copy_tree.h"
-#include "differentiator.h"
-#include "transfer_to_tex.h"
+#include "../h/tree.h"
+#include "../h/fillbuf.h"
+#include "../h/dump.h"
+#include "../h/opt.h"
+#include "../h/copy_tree.h"
+#include "../h/diff.h"
+#include "../h/to_tex.h"
 
 int main()
 {
@@ -23,7 +23,7 @@ int main()
 
     arr++;
 
-    struct Node_t* Node = Сonverter_tree (&arr, NULL);
+    struct Node_t* Node = Converter_tree (&arr, NULL);
     assert (Node);
 
     Dump_moment (Node);

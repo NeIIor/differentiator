@@ -1,13 +1,12 @@
-#include "optimisation.h"
-//
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
 #include <assert.h>
 
-#include "dump.h"
-#include "macros.h"
+#include "../h/opt.h"
+#include "../h/dump.h"
+#include "../h/macros.h"
 
 void First_optimisation (Node_t* node)
 {

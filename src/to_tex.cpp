@@ -1,14 +1,13 @@
-#include "transfer_to_tex.h"
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
 
-#include "derevtso.h"
-#include "defining_operation.h"
-#include "optimisation.h"
-#include "macros.h"
+#include "../h/to_tex.h"
+#include "../h/tree.h"
+#include "../h/def_oper.h"
+#include "../h/opt.h"
+#include "../h/macros.h"
 
 void Transfer_to_tex (struct Node_t* node, struct Node_t* diff, FILE* file_tex)
 {

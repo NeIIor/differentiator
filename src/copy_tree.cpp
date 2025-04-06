@@ -1,6 +1,6 @@
-#include  "copy_tree.h"
-#include "derevtso.h"
-//
+#include "../h/copy_tree.h"
+#include "../h/tree.h"
+//w     
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

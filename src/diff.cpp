@@ -1,16 +1,15 @@
-#include "differentiator.h"
-//
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
 #include <ctype.h>
 
-#include "derevtso.h"
-#include "defining_operation.h"
-#include "operation.h"
-#include "copy_tree.h"
-#include "dump.h"
+#include "../h/diff.h"
+#include "../h/tree.h"
+#include "../h/def_oper.h"
+#include "../h/oper.h"
+#include "../h/copy_tree.h"
+#include "../h/dump.h"
 
 struct Node_t* Differentiator (Node_t* node)
 {

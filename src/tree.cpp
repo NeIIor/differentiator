@@ -1,12 +1,11 @@
-#include "derevtso.h"
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
 #include <ctype.h>
 
-#include "defining_operation.h"
+#include "../h/tree.h"
+#include "../h/def_oper.h"
 
 struct Node_t* create_Node (char* data, Node_t* Node)
 {
@@ -66,9 +65,8 @@ struct Node_t* create_Node (char* data, Node_t* Node)
     return newNode;
 }
 
-struct Node_t* Сonverter_tree (char** arr, Node_t* otets)
+struct Node_t* Converter_tree (char** arr, Node_t* otets)
 {
-    // assert на отца не нужен
     assert (arr);
 
     char word [SIZE_OBJECT] = "";
@@ -82,14 +80,14 @@ struct Node_t* Сonverter_tree (char** arr, Node_t* otets)
     if (**arr == '{')
     {
         (*arr)++; 
-        Node->left = Сonverter_tree(arr, Node);
+        Node->left = Converter_tree(arr, Node);
         (*arr)++; 
     }
 
     if (**arr == '{')
     {
         (*arr)++; 
-        Node->right = Сonverter_tree (arr, Node);
+        Node->right = Converter_tree (arr, Node);
         (*arr)++;
     }
 

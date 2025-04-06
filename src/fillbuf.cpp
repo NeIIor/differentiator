@@ -1,11 +1,10 @@
-#include "fillbuf.h"
-//
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
 
-#include "derevtso.h"
+#include "../h/fillbuf.h"
+#include "../h/tree.h"
 
 size_t Get_file_size (FILE* file_derevtso)
 {

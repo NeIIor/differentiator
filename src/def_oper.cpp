@@ -1,11 +1,10 @@
-#include "defining_operation.h"
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
 
-#include "operation.h"
+#include "../h/def_oper.h"
+#include "../h/oper.h"
 
 enum operation Defining_operation_for_Node (char* data)
 {
